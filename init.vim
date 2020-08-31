@@ -21,6 +21,7 @@ Plug 'dart-lang/dart-vim-plugin'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
