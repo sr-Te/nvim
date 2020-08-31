@@ -16,15 +16,24 @@ call plug#begin('~/.vim/plugged')
 "Themes
 Plug 'morhetz/gruvbox'
 
+"Lenguaje support
+Plug 'dart-lang/dart-vim-plugin'
+
 "IDE
 Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
 
-"Configuracion Tema
+"Theme Config
 colorscheme gruvbox
 let g:gruvbox_contrast_dark="hard"  "Contraste alto
 
+"Dart Config
+let dart_html_in_string=v:true   "HTML syntax highlightling inside dart
+let g:dart_style_guide=2    "Dart guide syntax (like 2-space identation)
+let g:dart_format_on_save=1 "DartFmt execution on buffer save
+
+"EasyMotion
 let mapleader=" " "Tecla lider de easymotion :3
 nmap <Leader>s <Plug>(easymotion-s2) 
