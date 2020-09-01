@@ -21,6 +21,8 @@ Plug 'dart-lang/dart-vim-plugin'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
@@ -37,4 +39,7 @@ let g:dart_format_on_save=1 "DartFmt execution on buffer save
 
 "EasyMotion
 let mapleader=" " "Tecla lider de easymotion :3
-nmap <Leader>s <Plug>(easymotion-s2) 
+nmap <Leader>s <Plug>(easymotion-s2)
+
+"NerdTree
+nmap <Leader>nt :NERDTreeFind<Cr>
