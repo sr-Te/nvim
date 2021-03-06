@@ -28,4 +28,4 @@ set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
-set background=dark
+
