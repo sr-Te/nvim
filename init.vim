@@ -25,7 +25,6 @@ Plug 'dart-lang/dart-vim-plugin'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
-Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -50,9 +49,6 @@ nmap <leader>q :q<Cr>
 
 "EasyMotion
 nmap <Leader>s <Plug>(easymotion-s2)
-
-"NerdTree
-nmap <Leader>n :NERDTreeToggle<Cr>
 
 "NerdCommenter
 vmap <leader>cc <Plug>NERDCommenterToggle
