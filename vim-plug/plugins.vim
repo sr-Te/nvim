@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 "Themes
 Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
