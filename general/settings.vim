@@ -14,6 +14,7 @@ set sw=2              "identacion 2 espacios
 set noswapfile
 set noshowmode
 set updatetime=100
+set timeoutlen=100
 
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
