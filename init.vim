@@ -5,13 +5,14 @@ source $HOME/.config/nvim/themes/onedark.vim
 "Airline
 let g:airline_theme='jellybeans'
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_left_sep='>'
-let g:airline_right_sep='<'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_symbols.branch = ''
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ''
-let g:airline#extensions#tabline#left_alt_sep = ''
-let g:airline#extensions#tabline#right_sep = ''
-let g:airline#extensions#tabline#right_alt_sep = ''
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = ''
 let g:airline#extensions#hunks#enabled=0
 let g:airline#extensions#branch#enabled=1
 
@@ -28,6 +29,19 @@ let g:dart_format_on_save=1 "DartFmt execution on buffer save
 "Personal
 nmap <leader>w :w<Cr>
 nmap <leader>q :q<Cr>
+
+"Better nav for omnicomplete
+inoremap <expr> <c-j> ("\<C-n>")
+inoremap <expr> <c-k> ("\<C-p>")
+
+" I hate escape more than anything else
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+" TAB in general mode will move to text buffer
+nnoremap <TAB> :bnext<CR>
+" SHIFT-TAB will go back
+nnoremap <S-TAB> :bprevious<CR>
 
 "EasyMotion
 nmap <Leader>s <Plug>(easymotion-s2)
