@@ -2,7 +2,23 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/themes/onedark.vim
 
-let g:airline_theme='onedark'
+"Airline
+let g:airline_theme='jellybeans'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep='>'
+let g:airline_right_sep='<'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = ''
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
 
 "Dart Config
 let dart_html_in_string=v:true   "HTML syntax highlightling inside dart
@@ -17,8 +33,8 @@ nmap <leader>q :q<Cr>
 nmap <Leader>s <Plug>(easymotion-s2)
 
 "NerdCommenter
-vmap <leader>cc <Plug>NERDCommenterToggle
-nmap <leader>cc <Plug>NERDCommenterToggle
+vmap <leader>c <Plug>NERDCommenterToggle
+nmap <leader>c <Plug>NERDCommenterToggle
 
 "Coc-nvim configuration
 source $HOME/.config/nvim/coc.vim
