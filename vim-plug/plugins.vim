@@ -17,6 +17,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'mhinz/vim-startify'
 
 "Git support
 Plug 'mhinz/vim-signify'
