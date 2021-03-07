@@ -2,71 +2,14 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/themes/gruvbox.vim
 
-"Airline
-let g:airline_theme='jellybeans'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ''
-let g:airline#extensions#tabline#left_alt_sep = ''
-let g:airline#extensions#tabline#right_sep = ''
-let g:airline#extensions#tabline#right_alt_sep = ''
-let g:airline#extensions#hunks#enabled=0
-let g:airline#extensions#branch#enabled=1
+source $HOME/.config/nvim/plug-config/airline.vim
+source $HOME/.config/nvim/plug-config/signify.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
-let g:airline_symbols.space = "\ua0"
-
-"SigniFy
-let g:signify_sign_add               = '+'
-let g:signify_sign_delete            = '_'
-let g:signify_sign_delete_first_line = '?'
-let g:signify_sign_change            = '~'
-
-let g:signify_sign_show_count = 0
-let g:signify_sign_show_text = 1
-
- highlight SignifySignAdd                  ctermbg=green                guibg=#00aa00
- highlight SignifySignDelete ctermfg=black ctermbg=red    guifg=#ffffff guibg=#aa0000
- highlight SignifySignChange ctermfg=black ctermbg=yellow guifg=#000000 guibg=#fafa00
+source $HOME/.config/nvim/general/maps.vim 
 
 "Dart Config
 let dart_html_in_string=v:true   "HTML syntax highlightling inside dart
 let g:dart_style_guide=2    "Dart guide syntax (like 2-space identation)
 let g:dart_format_on_save=1 "DartFmt execution on buffer save
 
-"Personal
-nmap <leader>w :w<Cr>
-nmap <leader>q :q<Cr>
-
-"Better nav for omnicomplete
-inoremap <expr> <c-j> ("\<C-n>")
-inoremap <expr> <c-k> ("\<C-p>")
-
-" Use alt + hjkl to resize windows
-nnoremap ∆    :resize -2<CR>
-nnoremap ˚    :resize +2<CR>
-nnoremap ˙    :vertical resize -2<CR>
-nnoremap ¬    :vertical resize +2<CR>
-
-" I hate escape more than anything else
-inoremap jk <Esc>
-inoremap kj <Esc>
-
-" TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
-
-"EasyMotion
-nmap <Leader>s <Plug>(easymotion-s2)
-
-"NerdCommenter
-vmap <leader>c <Plug>NERDCommenterToggle
-nmap <leader>c <Plug>NERDCommenterToggle
-
-"Coc-nvim configuration
-source $HOME/.config/nvim/coc.vim
