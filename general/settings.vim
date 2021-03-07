@@ -15,6 +15,7 @@ set noswapfile
 set noshowmode
 set updatetime=100
 set timeoutlen=100
+set formatoptions-=cro                  " Stop newline continution of comments
 
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
