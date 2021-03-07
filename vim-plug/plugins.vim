@@ -9,9 +9,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 "Lenguaje support
 Plug 'dart-lang/dart-vim-plugin'
-"Plug 'thosakwe/vim-flutter'
-"Plug 'natebosch/vim-lsc'
-"Plug 'natebosch/vim-lsc-dart'
 
 "IDE
 Plug 'jiangmiao/auto-pairs'
