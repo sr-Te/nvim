@@ -1,5 +1,6 @@
 nmap <leader>w :w<Cr>
 nmap <leader>q :q<Cr>
+nmap <leader>ew :bw<Cr>
 
 "Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
