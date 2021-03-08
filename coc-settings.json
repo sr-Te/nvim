@@ -14,33 +14,5 @@
       "open"
     ],
     "v": "open:vsplit"
-  },
-  //suggestion icons
-  "suggest.completionItemKindLabels": {
-    "method": " ? ",
-    "function": " ? ",
-    "variable": "[?]",
-    "field": " ? ",
-    "typeParameter": "<?>",
-    "constant": " ? ",
-    "class": " ? ",
-    "interface": " ?",
-    "struct": " ? ",
-    "event": " ? ",
-    "operator": " ? ",
-    "module": " ? ",
-    "property": " ? ",
-    "enum": " ?",
-    "reference": " ? ",
-    "keyword": " ? ",
-    "file": " ? ",
-    "folder": " ? ",
-    "color": " ? ",
-    "unit": " ? ",
-    "snippet": " ? ",
-    "text": " ? ",
-    "constructor": " ? ",
-    "value": " ? ",
-    "enumMember": " ? "
   }
 }
