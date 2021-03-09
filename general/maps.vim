@@ -3,8 +3,8 @@ nmap <leader>q :q<Cr>
 nmap <leader>ew :bw<Cr>
 
 "Better nav for omnicomplete
-inoremap <expr> <c-j> ("\<C-n>")
-inoremap <expr> <c-k> ("\<C-p>")
+"inoremap <expr> <c-j> ("\<C-n>")
+"inoremap <expr> <c-k> ("\<C-p>")
 
 " Use alt + hjkl to resize windows
 nnoremap ∆    :resize -2<CR>
