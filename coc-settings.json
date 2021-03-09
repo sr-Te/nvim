@@ -1,7 +1,9 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
     "dart",
-    "json"
+    "json",
+    "cpp",
+    "c"
   ],
   // explorer
   "explorer.width": 30,
@@ -14,5 +16,6 @@
       "open"
     ],
     "v": "open:vsplit"
-  }
+  },
+  "clangd.path": "/Users/te/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
 }
