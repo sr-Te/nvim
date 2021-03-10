@@ -5,7 +5,6 @@ nmap <leader>ew :bw<Cr>
 "Better nav for omnicomplete
 "inoremap <expr> <c-j> ("\<C-n>")
 "inoremap <expr> <c-k> ("\<C-p>")
-
 " Use alt + hjkl to resize windows
 nnoremap ∆    :resize -2<CR>
 nnoremap ˚    :resize +2<CR>
@@ -28,3 +27,5 @@ nmap <Leader>s <Plug>(easymotion-s2)
 vmap <leader>c <Plug>NERDCommenterToggle
 nmap <leader>c <Plug>NERDCommenterToggle
 
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>

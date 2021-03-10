@@ -4,6 +4,7 @@ syntax enable         "Resaltado de colores
 set ruler
 set number            "Muestra el numero de la linea
 set relativenumber    "Muestra la distancia a otras lineas
+set ignorecase
 set cursorline
 set mouse=a           "Setea el mouse
 set numberwidth=1     "Tamaño de los numeros
@@ -16,6 +17,7 @@ set noshowmode
 set updatetime=100
 set timeoutlen=100
 set formatoptions-=cro                  " Stop newline continution of comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set modifiable
 
 set splitbelow                          " Horizontal splits will automatically be below
