@@ -11,8 +11,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'dart-lang/dart-vim-plugin'
 
 "IDE
-Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
+Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
