@@ -143,5 +143,4 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " Resume latest coc list.
 "nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-nmap <space>l :CocList<CR>
 nmap <space>n :CocCommand explorer<CR>

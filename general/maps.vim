@@ -29,3 +29,9 @@ nmap <leader>c <Plug>NERDCommenterToggle
 
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
+
+nmap <space>n :CocCommand explorer<CR>
+
+
+nnoremap   <silent>   <leader>ft   :FloatermToggle<CR>
+tnoremap   <silent>   <leader>ft   <C-\><C-n>:FloatermToggle<CR>
