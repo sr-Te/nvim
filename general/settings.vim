@@ -14,8 +14,8 @@ set showmatch         "Muestra relacion entre parentesis
 set sw=2              "identacion 2 espacios
 set noswapfile
 set noshowmode
-set updatetime=100
-set timeoutlen=100
+set updatetime=300
+set timeoutlen=600
 set formatoptions-=cro                  " Stop newline continution of comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set modifiable
