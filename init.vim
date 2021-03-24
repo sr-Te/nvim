@@ -16,3 +16,5 @@ source $HOME/.config/nvim/plug-config/foaterm.vim
 let dart_html_in_string=v:true   "HTML syntax highlightling inside dart
 let g:dart_style_guide=2    "Dart guide syntax (like 2-space identation)
 let g:dart_format_on_save=1 "DartFmt execution on buffer save
+
+ let g:rainbow_active = 1

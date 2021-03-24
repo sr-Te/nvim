@@ -7,6 +7,9 @@ Plug 'morhetz/gruvbox'
 Plug 'hzchirs/vim-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'Yggdroot/indentLine'
+Plug 'luochen1990/rainbow'
 
 "Lenguaje support
 Plug 'dart-lang/dart-vim-plugin'
