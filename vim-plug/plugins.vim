@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'Yggdroot/indentLine'
 Plug 'luochen1990/rainbow'
+Plug 'jbgutierrez/vim-better-comments'
 
 "Lenguaje support
 Plug 'dart-lang/dart-vim-plugin'

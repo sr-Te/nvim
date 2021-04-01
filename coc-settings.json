@@ -6,7 +6,7 @@
     "c"
   ],
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 60,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
