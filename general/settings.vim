@@ -15,7 +15,7 @@ set sw=2              "identacion 2 espacios
 set noswapfile
 set noshowmode
 set updatetime=300
-set timeoutlen=600
+set timeoutlen=500
 set formatoptions-=cro                  " Stop newline continution of comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set modifiable

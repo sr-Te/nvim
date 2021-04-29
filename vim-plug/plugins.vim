@@ -16,7 +16,8 @@ Plug 'jbgutierrez/vim-better-comments'
 Plug 'dart-lang/dart-vim-plugin'
 
 "IDE
-Plug 'easymotion/vim-easymotion'
+Plug 'justinmk/vim-sneak'
+Plug 'unblevable/quick-scope'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdcommenter'
