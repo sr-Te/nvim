@@ -27,5 +27,18 @@ nmap <leader>c <Plug>NERDCommenterToggle
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
+"floaterm
 nnoremap   <silent>   <leader>ft   :FloatermToggle<CR>
 tnoremap   <silent>   <leader>ft   <C-\><C-n>:FloatermToggle<CR>
+
+nnoremap   <silent>   <leader>fl   :FloatermNext<CR>
+tnoremap   <silent>   <leader>fl   <C-\><C-n>:FloatermNext<CR>
+
+nnoremap   <silent>   <leader>fh   :FloatermPrev<CR>
+tnoremap   <silent>   <leader>fh   <C-\><C-n>:FloatermPrev<CR>
+
+nnoremap   <silent>   <leader>fn   :FloatermNew<CR>
+tnoremap   <silent>   <leader>fn   <C-\><C-n>:FloatermNew<CR>
+
+nnoremap   <silent>   <leader>fd   :FloatermKill<CR>
+tnoremap   <silent>   <leader>fd   <C-\><C-n>:FloatermKill<CR>
