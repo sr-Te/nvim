@@ -30,8 +30,8 @@ nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
 "floaterm
-nnoremap   <silent>   <leader>ft   :FloatermToggle<CR>
-tnoremap   <silent>   <leader>ft   <C-\><C-n>:FloatermToggle<CR>
+nnoremap   <silent>   <leader>t   :FloatermToggle<CR>
+tnoremap   <silent>   <leader>t   <C-\><C-n>:FloatermToggle<CR>
 
 nnoremap   <silent>   <leader>fl   :FloatermNext<CR>
 tnoremap   <silent>   <leader>fl   <C-\><C-n>:FloatermNext<CR>
