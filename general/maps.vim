@@ -44,3 +44,8 @@ tnoremap   <silent>   <leader>fn   <C-\><C-n>:FloatermNew<CR>
 
 nnoremap   <silent>   <leader>fd   :FloatermKill<CR>
 tnoremap   <silent>   <leader>fd   <C-\><C-n>:FloatermKill<CR>
+
+"VisualMulti
+"let g:VM_maps = {}
+"let g:VM_maps["Add Cursor Down"] = '<C-j>'      " start selecting down
+"let g:VM_maps["Add Cursor Up"]   = '<C-k>'        " start selecting up
