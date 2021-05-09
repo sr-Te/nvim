@@ -18,13 +18,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi'
 Plug 'justinmk/vim-sneak'
 Plug 'unblevable/quick-scope'
-Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 Plug 'mhinz/vim-startify'
-Plug 'kien/ctrlp.vim'
 Plug 'voldikss/vim-floaterm'
 
 "Git support

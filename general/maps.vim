@@ -1,12 +1,18 @@
+" Coc Maps in coc.vim configuration file ;)
+
+" Save, Close file & buffer
 nmap <leader>w :w<Cr>
 nmap <leader>q :q<Cr>
 nmap <leader>ew :bw<Cr>
+
+" Buffer lists
 nmap <leader>b :ls<Cr>
 nmap <leader>B :ls!<Cr>
 
-"Better nav for omnicomplete
-"inoremap <expr> <c-j> ("\<C-n>")
-"inoremap <expr> <c-k> ("\<C-p>")
+" New lines in normal mode
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>
+
 " Use alt + hjkl to resize windows
 nnoremap ∆    :resize -2<CR>
 nnoremap ˚    :resize +2<CR>
@@ -26,12 +32,10 @@ nnoremap <S-TAB> :bprevious<CR>
 vmap <leader>c <Plug>NERDCommenterToggle
 nmap <leader>c <Plug>NERDCommenterToggle
 
-nnoremap <Leader>o o<Esc>
-nnoremap <Leader>O O<Esc>
 
 "floaterm
-nnoremap   <silent>   <leader>t   :FloatermToggle<CR>
-tnoremap   <silent>   <leader>t   <C-\><C-n>:FloatermToggle<CR>
+nnoremap   <silent>   <leader>ff   :FloatermToggle<CR>
+tnoremap   <silent>   <leader>ff   <C-\><C-n>:FloatermToggle<CR>
 
 nnoremap   <silent>   <leader>fl   :FloatermNext<CR>
 tnoremap   <silent>   <leader>fl   <C-\><C-n>:FloatermNext<CR>
@@ -42,10 +46,6 @@ tnoremap   <silent>   <leader>fh   <C-\><C-n>:FloatermPrev<CR>
 nnoremap   <silent>   <leader>fn   :FloatermNew<CR>
 tnoremap   <silent>   <leader>fn   <C-\><C-n>:FloatermNew<CR>
 
-nnoremap   <silent>   <leader>fd   :FloatermKill<CR>
-tnoremap   <silent>   <leader>fd   <C-\><C-n>:FloatermKill<CR>
+nnoremap   <silent>   <leader>fk   :FloatermKill<CR>
+tnoremap   <silent>   <leader>fk   <C-\><C-n>:FloatermKill<CR>
 
-"VisualMulti
-"let g:VM_maps = {}
-"let g:VM_maps["Add Cursor Down"] = '<C-j>'      " start selecting down
-"let g:VM_maps["Add Cursor Up"]   = '<C-k>'        " start selecting up

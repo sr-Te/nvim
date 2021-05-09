@@ -7,7 +7,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 proyects/exefire/uber_clone_client/lib/main.dart
+badd +1 proyects/exefire/uber_clone_client/lib/main.dart
 argglobal
 %argdel
 $argadd proyects/exefire/uber_clone_client/lib/main.dart
@@ -28,7 +28,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 24) / 48)
+let s:l = 1 - ((0 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
