@@ -1,7 +1,7 @@
 
 call plug#begin('~/.vim/plugged')
 
-"Beauty
+" Beauty
 Plug 'morhetz/gruvbox'
 Plug 'Yggdroot/indentLine'
 Plug 'luochen1990/rainbow'
@@ -9,17 +9,18 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jbgutierrez/vim-better-comments'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'jiangmiao/auto-pairs'
 
-"Lenguaje support
+" Lenguaje support
 Plug 'dart-lang/dart-vim-plugin'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
-"IDE
+" IDE
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-surround'
 Plug 'szw/vim-maximizer'
 Plug 'puremourning/vimspector'
-Plug 'jiangmiao/auto-pairs'
 Plug 'voldikss/vim-floaterm'
 Plug 'mg979/vim-visual-multi'
 Plug 'justinmk/vim-sneak'
@@ -27,7 +28,7 @@ Plug 'unblevable/quick-scope'
 Plug 'preservim/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 
-"Git support
+" Git support
 Plug 'junegunn/gv.vim'
 Plug 'tpope/vim-rhubarb'
 Plug 'mhinz/vim-signify'
