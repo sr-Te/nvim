@@ -7,9 +7,10 @@ source $HOME/.config/nvim/general/maps.vim
 source $HOME/.config/nvim/themes/gruvbox.vim
 
 " FEATURES
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/signify.vim
-source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/foaterm.vim
 source $HOME/.config/nvim/plug-config/sneak.vim

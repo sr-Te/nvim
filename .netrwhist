@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/te/proyects/exefire/patagonia_shopper'
+let g:netrw_dirhist_5='/Users/te/proyects/exefire/patagonia_shopper/lib'
+let g:netrw_dirhist_4='/Users/te/proyects/exefire/patagonia_shopper'
+let g:netrw_dirhist_3='/Users/te/.vim/plugged/vimspector/gadgets/macos/.gadgets.d'
 let g:netrw_dirhist_2='/Users/te/.config/nvim'
 let g:netrw_dirhist_1='/Users/te/proyects/exefire/uber_clone_client'
 let g:netrw_dirhist_0='/Users/te/proyects/exefire/uber_clone_client/lib'
 let g:netrw_dirhist_9='/Users/te/proyects/exefire/uber_clone_client'
 let g:netrw_dirhist_8='/Users/te/proyects/exefire'
 let g:netrw_dirhist_7='/Users/te/proyects/exefire/uber_clone_client'
-let g:netrw_dirhist_6='/Users/te/proyects/exefire'
-let g:netrw_dirhist_5='/Users/te/proyects'
-let g:netrw_dirhist_4='/Users/te/proyects/exefire'
-let g:netrw_dirhist_3='/Users/te/proyects'

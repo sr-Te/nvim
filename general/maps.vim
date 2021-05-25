@@ -14,10 +14,10 @@ nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
 " Use alt + hjkl to resize windows
-nnoremap ∆    :resize -2<CR>
-nnoremap ˚    :resize +2<CR>
-nnoremap ˙    :vertical resize -2<CR>
-nnoremap ¬    :vertical resize +2<CR>
+nnoremap ∆    :resize -5<CR>
+nnoremap ˚    :resize +5<CR>
+nnoremap ˙    :vertical resize -5<CR>
+nnoremap ¬    :vertical resize +5<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -28,12 +28,15 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
-"NerdCommenter
+" Split
+nnoremap <leader>vs :vsplit<CR>
+
+" NerdCommenter
 vmap <leader>c <Plug>NERDCommenterToggle
 nmap <leader>c <Plug>NERDCommenterToggle
 
 
-"floaterm
+" floaterm
 nnoremap   <silent>   <leader>ff   :FloatermToggle<CR>
 tnoremap   <silent>   <leader>ff   <C-\><C-n>:FloatermToggle<CR>
 
