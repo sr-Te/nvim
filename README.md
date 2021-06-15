@@ -28,56 +28,7 @@ Para instalar sus extensiones debes ejecutar dentro de nvim ``:CocInstall <nombr
 ``CocInstall coc-explorer``.
 
 Para ver las configuraciones ejecuta ``:CocConfig``.
-mi configuración actual es:
-```
-{
-  "coc.preferences.formatOnSaveFiletypes": [
-    "dart",
-    "json",
-    "cpp",
-    "c"
-  ],
-  // explorer
-  "explorer.width": 60,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
-  "explorer.file.showHiddenFiles": true,
-  "explorer.keyMappings.global": {
-    "<cr>": [
-      "expandable?",
-      "expand",
-      "open"
-    ],
-    "v": "open:vsplit"
-  },
-  "clangd.path": "/Users/te/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
-  "flutter.autoOpenDevLog": true,
-  "languageserver": {
-    "ccls": {
-      "command": "ccls",
-      "filetypes": [
-        "c",
-        "cc",
-        "cpp",
-        "c++",
-        "objc",
-        "objcpp"
-      ],
-      "rootPatterns": [
-        ".ccls",
-        "compile_commands.json",
-        ".git/",
-        ".hg/"
-      ],
-      "initializationOptions": {
-        "cache": {
-          "directory": "/tmp/ccls"
-        }
-      }
-    }
-  }
-}
-```
+mi configuración actual puedes revisarla en el archivo ``coc-settings.json``.
 
 #### [ vim-surround ](https://github.com/tpope/vim-surround)
 Surround.vim tiene que ver con el "entorno": paréntesis, corchetes, comillas, etiquetas XML y más. 
