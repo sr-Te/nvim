@@ -8,7 +8,7 @@ por lo que neovim me a venido como anillo al dedo.
 si quieres utilizarla para el mismo proposito te recomiendo esta extension: [coc-flutter-tools](https://github.com/theniceboy/coc-flutter-tools)
 
 ## Instalación
-- [instalar neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- [instalar neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim), necesitaras la version 0.5
 - clona este repo en ~/.config/nvim/ (en caso de mac o linux).
 - algunos paquetes necesitan nodejs [instalar nodejs](https://nodejs.org/en/)
 - entra a neovim y ejecuta ``:PlugInstall``
